@@ -1,0 +1,85 @@
+.question-display {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.question-text {
+    font-size: 28px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.option {
+    background-color: rgba(68, 0, 255, 0.6);
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 20px;
+    flex: 0 0 48%;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.option.selected {
+    background-color: rgba(0, 123, 255, 0.8);
+}
+
+.option.pending {
+    background-color: #2196f3;
+    /* Blue */
+    color: #fff;
+}
+
+.option.correct {
+    background-color: #4caf50;
+    /* Green */
+    color: #fff;
+}
+
+.option.incorrect {
+    background-color: #f44336;
+    /* Red */
+    color: #fff;
+}
+
+
+.option.blank {
+    background-color: #ab69d6b0;
+    pointer-events: none;
+}
+
+.option:hover {
+    background-color: rgba(0, 123, 255, 0.856);
+    transform: scale(1.02);
+}
+
+/* Position the reveal button */
+.reveal-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.reveal-button:hover {
+    color: #0056b3;
+}
+

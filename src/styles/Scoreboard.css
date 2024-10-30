@@ -1,0 +1,21 @@
+.scoreboard {
+    background-color: transparent;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  .scoreboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .scoreboard ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .scoreboard li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  

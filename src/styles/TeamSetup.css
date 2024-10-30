@@ -1,0 +1,23 @@
+.team-setup {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .team-setup label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .team-setup input {
+    font-size: 18px;
+    width: 60px;
+    text-align: center;
+  }
+  
+  .team-setup button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,51 @@
+.game-container {
+    display: flex;
+    flex: 1;
+}
+
+.question-section {
+    flex: 3;
+    padding: 40px;
+    background-color: transparent;
+    background: transparent;
+}
+
+.next-question-button {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.next-question-button:hover {
+    color: #0056b3;
+}
+
+.reveal-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.center-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centers vertically */
+    align-items: center;
+    /* Centers horizontally */
+    position: relative;
+}
+
+/* Adjust the scoreboard */
+.scoreboard {
+    flex: 1;
+    padding: 20px;
+    background-color: transparent;
+    border-left: 1px solid #dee2e6;
+}
